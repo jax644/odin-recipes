@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+    font-family:Impact, sans-serif
+}
+
+h1 {
+    color:orange;
+}
+.sub {
+    font-family: Verdana, sans-serif;
+    font-style:italic;
+    font-weight:bold;
+    color:rgb(32, 78, 128);
+}
