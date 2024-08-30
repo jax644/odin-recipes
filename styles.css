@@ -20,10 +20,9 @@ display:flex;
 justify-content:space-evenly;
 color:green;
 }
-    #logo {
-        width:300px;
+    .header span{
+        margin:
     }
-    
 #intro {
     display:flex;
     justify-content: center;
