@@ -17,10 +17,13 @@ h2 {
 
 .header {
 display:flex;
-justify-content: space-evenly;
+justify-content:space-evenly;
 color:green;
 }
-
+    #logo {
+        width:300px;
+    }
+    
 #intro {
     display:flex;
     justify-content: center;
@@ -60,7 +63,7 @@ color:green;
 .gray {
     background-color: rgb(235, 235, 235);
     padding:20px 40px;
-    margin:20px 40px;
+    margin:20px 60px;
     border-radius:25px;
     text-align:center;
 }
