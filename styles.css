@@ -1,20 +1,8 @@
+/* Universal Styling */
 * {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:18px;
-
 }
-
-ul, ol {
-    list-style-position: inside;
-}
-
-.logo {
-display:flex;
-justify-content: space-evenly;
-color:green;
-
-}
-
 h1 {
     color:orange;
     text-align: center;
@@ -25,31 +13,48 @@ h2 {
     font-size:24px;
 }
 
-.bluebut {
-    background-color: rgb(65, 143, 211);
-    padding:10px;
-    color:white;
-    border-radius:10px;
-    display:inline-block;
-    }
-    .bluebut a {
-        color:white;
-        text-decoration: none;
-    }
-    .bluebut:hover{
-        background-color: rgb(29, 112, 186);
-    }
+/* Homepage styling */
+
+.header {
+display:flex;
+justify-content: space-evenly;
+color:green;
+}
 
 #intro {
     display:flex;
     justify-content: center;
+    text-align: left;
     margin-top:50px;
 }
     #intro-text {
         display:flex;
         flex-direction: column;
-        width:20%;
+        width:400px;
     }
+        #intro-text h1{
+            text-align:left;
+        }
+
+#buttons {
+    text-align: center;
+    margin:30px;
+}
+
+    .bluebut {
+        background-color: rgb(65, 143, 211);
+        padding:10px;
+        color:white;
+        border-radius:10px;
+        display:inline-block;
+        }
+        .bluebut a {
+            color:white;
+            text-decoration: none;
+        }
+        .bluebut:hover{
+            background-color: rgb(29, 112, 186);
+        }
 
 .gray {
     background-color: rgb(235, 235, 235);
@@ -58,6 +63,9 @@ h2 {
     border-radius:25px;
     text-align:center;
 }
+
+/* Recipe page styling */
+
 .alert {
     background-color: rgb(222, 116, 116);
     color: white;
@@ -67,4 +75,8 @@ h2 {
     width: 50%;
     margin: 0 auto;
     text-align:center;
+}
+
+ul, ol {
+    list-style-position: inside;
 }
