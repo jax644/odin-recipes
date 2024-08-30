@@ -28,7 +28,10 @@ h2 {
 
 .bluebut {
     background-color: rgb(65, 143, 211);
+    padding:10px;
     color:white;
+    border-radius:10px;
+    display:inline-block;
     }
     .bluebut a {
         color:white;
