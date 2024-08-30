@@ -30,19 +30,20 @@ color:green;
     #intro-text {
         display:flex;
         flex-direction: column;
+        justify-content:space-evenly;
         width:400px;
     }
         #intro-text h1{
             text-align:left;
+            margin-bottom:0px;
         }
 
 #buttons {
-    text-align: center;
-    margin:30px;
+
 }
 
     .bluebut {
-        background-color: rgb(65, 143, 211);
+        background-color: rgb(95, 174, 216);
         padding:10px;
         color:white;
         border-radius:10px;
@@ -53,7 +54,7 @@ color:green;
             text-decoration: none;
         }
         .bluebut:hover{
-            background-color: rgb(29, 112, 186);
+            background-color: rgb(84, 80, 203);
         }
 
 .gray {
