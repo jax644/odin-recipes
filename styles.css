@@ -9,11 +9,10 @@ ul, ol {
 }
 
 .logo {
-display:inline-block;
-text-align:center;
+display:flex;
+justify-content: space-evenly;
 color:green;
-width:auto;
-margin:0 auto;
+
 }
 
 h1 {
@@ -41,9 +40,17 @@ h2 {
         background-color: rgb(29, 112, 186);
     }
 
-.white {
-    text-align: center;
+#intro {
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
 }
+    #intro-text {
+        display:flex;
+        flex-direction: column;
+        width:20%;
+    }
+
 .gray {
     background-color: rgb(235, 235, 235);
     padding:20px 40px;
